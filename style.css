@@ -72,12 +72,10 @@ h1 {
     float: left;
     overflow: hidden;
     height: 100vh;
-    width: auto;
 }
 
 .sideimage img {
     height: 100vh;
-    width: auto;
 }
 
 .work-info {
