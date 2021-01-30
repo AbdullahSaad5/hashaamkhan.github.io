@@ -158,12 +158,20 @@ section {
     margin-top: 20px;
 }
 
-@media (orientation:portrait),
-(max-width:768px) {
-    .page1 .info .avatar {
-        min-width: 350px;
-        min-height: 350px;
+@media(max-width:1024px) {
+    .page1 .info {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
     }
+
+    .page1 .info .avatar {
+        min-width: 500px;
+        min-height: 500px;
+    }
+}
+
+@media (max-width:768px) {
 
     .page2 .sideImage {
         display: none;
