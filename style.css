@@ -82,7 +82,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .page2 .workInfo div {
@@ -165,10 +164,6 @@ section {
         align-items: center;
     }
 
-    .page1 .info .avatar {
-        min-width: 500px;
-        min-height: 500px;
-    }
 }
 
 @media (orientation:portrait),
