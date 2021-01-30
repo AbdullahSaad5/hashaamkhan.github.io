@@ -171,8 +171,8 @@ section {
     }
 }
 
-@media (max-width:768px) {
-
+@media (orientation:portrait),
+(max-width:768px) {
     .page2 .sideImage {
         display: none;
         flex: 0;
